@@ -1,0 +1,9 @@
+﻿Для підходу Databace Fisrt:
+
+Scaffold-DbContext "%connectionString%" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Додавання міграцій
+add-migration MyFirstMigration
+
+Створення БД 
+update-database –verbose
